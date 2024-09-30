@@ -30,7 +30,7 @@
     <!-- Text area for the answer (received from backend) -->
     <div class="w-full max-w-lg mb-4">
       <label class="block mb-2 font-semibold">Answer (Received from backend)</label>
-      <textarea v-model="answerText" rows="6" class="w-full p-3 bg-white border border-gray-300 rounded-lg font-mono text-sm resize-none" readonly></textarea>
+      <textarea v-model="answerText" rows="6" class="w-full p-3 bg-white border border-gray-300 rounded-lg font-mono text-sm resize-none" ></textarea>
     </div>
 
     <div class="flex space-x-4 mb-4">
